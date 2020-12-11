@@ -26,7 +26,7 @@ _start:
 
 loop_start:
 
-    cmb rbx, 0
+    cmp rbx, 0
     jle loop_stop
 
     mov rax, sys_write
